@@ -27,7 +27,7 @@ def mergeSort(num):
             num[z] = RGT[y]
             y += 1
             z += 1
+        print(num)
 
 num = [7, 26, 86, 88, 73, 59, 19, 18, 44, 46]
 mergeSort(num)
-print(num)
