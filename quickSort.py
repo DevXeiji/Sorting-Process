@@ -7,6 +7,7 @@ def partition(num, low, high):
             x = x + 1
             (num[x], num[y]) = (num[y], num[x])
     (num[x + 1], num[high]) = (num[high], num[x + 1])
+    print(num)
     return x + 1
 
 def quickSort(num, low, high):
@@ -18,7 +19,5 @@ def quickSort(num, low, high):
 
 
 num = [7, 26, 86, 88, 73, 59, 19, 18, 44, 46]
-size = len(num)
-quickSort(num, 0, size - 1)
-print(num)
+quickSort(num, 0, len(num) - 1)
 
