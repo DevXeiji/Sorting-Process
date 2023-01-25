@@ -7,6 +7,7 @@ def partition(num, low, high):
             x = x + 1
             (num[x], num[y]) = (num[y], num[x])
     (num[x + 1], num[high]) = (num[high], num[x + 1])
+    return x + 1
 
 def quickSort(num, low, high):
     if low < high:
