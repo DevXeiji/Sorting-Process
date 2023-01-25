@@ -1,3 +1,6 @@
-def partition():
+def partition(num, low, high):
 
-def quickSort():
+
+
+
+#def quickSort():
