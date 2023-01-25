@@ -18,5 +18,10 @@ def mergeSort(num):
                 y += 1
             z += 1
 
+        while x < len(LFT):
+            num[z] = LFT[x]
+            x += 1
+            z += 1
+
 num = [7, 26, 86, 88, 73, 59, 19, 18, 44, 46]
 print(num)
