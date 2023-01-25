@@ -1,1 +1,3 @@
+def partition():
+
 def quickSort():
