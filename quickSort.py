@@ -17,5 +17,7 @@ def quickSort(num, low, high):
 
 
 num = [7, 26, 86, 88, 73, 59, 19, 18, 44, 46]
+size = len(num)
+quickSort(num, 0, size - 1)
 print(num)
 
