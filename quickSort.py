@@ -1,6 +1,6 @@
 def partition(num, low, high):
     pivot = num[high]
-
+    print("Pivot:",pivot)
     x = low - 1
     for y in range(low, high):
         if num[y] <= pivot:
